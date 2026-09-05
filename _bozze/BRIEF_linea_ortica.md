@@ -1,5 +1,8 @@
 # Brief — Linea starter Erba «Ortica» (#004-#006)
 
+> ✅ **ESEGUITO e pubblicato il 05/09/2026**: Ortighetto #004, Ortica #005, Palortica #006 (Erba, Erba, Erba/Veleno).
+> Il brief resta come documento di lavoro della linea; per i dati fanno fede le schede pubblicate.
+
 *Scritto il 05/09/2026 da una sessione Claude con Jacopo. Destinatario: chi scrive le schede
 con `/crea-scheda`. Leggere prima `CLAUDE.md` e la skill; questo brief dice COSA, la skill dice COME.*
 

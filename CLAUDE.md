@@ -59,7 +59,7 @@ tabella, che vive nella skill `crea-scheda` ed è l'unica autorevole. Riassunto:
 | Blocco | Destinazione |
 |---|---|
 | #001-#003 | Starter Acqua: Nutrì → Nutriotto → Sciutria ✅ |
-| #004-#006 | Starter Erba (riservato) |
+| #004-#006 | Starter Erba: Ortighetto → Ortica → Palortica ✅ |
 | #007-#009 | Starter Fuoco (riservato) |
 | #010 in su | Specie libere, primo numero libero coerente col concept |
 
@@ -67,8 +67,8 @@ Quando una scheda viene pubblicata, aggiornare la tabella nella skill.
 
 ## Convenzioni delle schede
 
-- Clonare **sempre** la struttura di una scheda esistente (`nutri.html` è il modello; `sciutria.html`
-  mostra una specie a due tipi con una mossa esclusiva). Stesse classi, stesso ordine di sezioni.
+- Clonare **sempre** la struttura di una scheda esistente (`nutri.html` è il modello; `sciutria.html` e `palortica.html`
+  mostrano una specie a due tipi con una mossa esclusiva). Stesse classi, stesso ordine di sezioni.
 - Ogni pagina dichiara `<body class="<tipi>">` e `style.css` ha la riga `body.<tipi>{--accent1;--accent2}`
   corrispondente: è il solo punto in cui una scheda nuova tocca il CSS.
 - Design rifatto il 05/09/2026 sul modello di Pokémon Central (`.dexnav`, `.infobox`, `.effbox`,

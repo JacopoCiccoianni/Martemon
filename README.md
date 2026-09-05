@@ -8,6 +8,8 @@ Sito: https://jacopociccoianni.github.io/Martemon/
 
 - `index.html` — Pokédex Martemon e indice rapido
 - `nutri.html`, `nutriotto.html`, `sciutria.html` — schede della linea starter Acqua
+- `ortighetto.html`, `ortica.html`, `palortica.html` — schede della linea starter Erba
+- `_bozze/` — schede in lavorazione e brief per chi le scrive
 - `style.css` — foglio di stile condiviso
 - `img/` — artwork dei Pokémon (`nome.png`)
 
