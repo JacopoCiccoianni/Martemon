@@ -32,7 +32,8 @@ Filo geografico, sul modello Lambro → Martesana → Gorla della linea Acqua:
 
 ## 3. Le tre specie: proposta
 
-I **nomi sono proposte**: Jacopo sceglie. Presentargli le alternative, non decidere da soli.
+**Deciso da Jacopo il 05/09/2026: uno stadio si chiama `Ortica`**, tale e quale al quartiere. Qui è lo
+stadio intermedio; gli altri due nomi sono proposte e Jacopo sceglie. Presentargli le alternative.
 
 ### #004 — Ortighìn (alt. Ortighetto, Urtighìn)
 - Tipo: **Erba**. Categoria: Pokémon Germoglio.
@@ -43,7 +44,7 @@ I **nomi sono proposte**: Jacopo sceglie. Presentargli le alternative, non decid
 - Statistiche (totale **310**, come Nutrì): PS 45 · Att 40 · Dif 45 · Att.Sp **70** · Dif.Sp 55 · Vel 55.
 - Si evolve a **livello 17**.
 
-### #005 — Ortiga
+### #005 — Ortica *(nome fissato)*
 - Tipo: **Erba** (Veleno lo prende alla forma finale, in parallelo a Sciutria che prende Terra
   solo al terzo stadio). *Alternativa da proporre a Jacopo: Erba/Veleno già qui, perché è lo
   stadio in cui «impara a pungere».*
@@ -51,7 +52,7 @@ I **nomi sono proposte**: Jacopo sceglie. Presentargli le alternative, non decid
 - Aspetto: pianta adolescente, alta al ginocchio, foglie appuntite e già urticanti, portamento
   da ragazzo di strada: spalle avanti, mani in tasca (se ha le mani), un ciuffo di infiorescenze
   penzolanti come una frangia. Sta sotto i murales del quartiere.
-- Carattere: fa gruppo. Gli Ortiga stanno in bande, occupano un cortile e lo difendono. Chi
+- Carattere: fa gruppo. Gli Ortica stanno in bande, occupano un cortile e lo difendono. Chi
   entra si gratta per un'ora. Con chi conoscono sono di una fedeltà assoluta.
 - Abilità: come sopra. Altezza 0,9 m, peso 14,0 kg.
 - Statistiche (totale **405**, come Nutriotto): PS 60 · Att 50 · Dif 60 · Att.Sp **90** · Dif.Sp 70 · Vel 75.
@@ -124,9 +125,9 @@ dettaglio non si riesce a confermare, si lascia fuori o si scrive in modo che no
 - `nutri.html`, `nutriotto.html`, `sciutria.html` dicono che Erba e Fuoco sono «non ancora
   catalogate» e che lo starter Erba sarà l'attaccante speciale: **rispettare quel ruolo**, e in
   fase di pubblicazione correggere la frase «non ancora catalogate» per la sola linea Erba.
-- Sciutria #003 ha la `.pagenav` con il successivo verso l'indice: alla pubblicazione di #004 il
+- Sciutria #003 ha la `.dexnav` con il successivo verso l'indice: alla pubblicazione di #004 il
   link diventa `#004: Nome →` (lo fa `pubblica-scheda`).
-- `index.html`: il riquadro `.hero` e il paragrafo «Pokédex Martemon» parlano di una sola linea:
+- `index.html`: il `.notice` «Wiki in espansione» e il paragrafo «Pokédex Martemon» parlano di una sola linea:
   da aggiornare quando esce #004.
 - Voci Pokédex: **Versione Lambro** e **Versione Martesana**, come sempre.
 - Le tre schede si citano a vicenda in «Vedi anche», e almeno una curiosità per scheda deve
@@ -142,7 +143,7 @@ la posa descritta al §3.
 
 ## 8. Consegna attesa
 
-1. Tre bozze in `_bozze/`: `ortighin.html`, `ortiga.html`, `urtigon.html` (o i nomi scelti da
+1. Tre bozze in `_bozze/`: `ortighin.html`, `ortica.html`, `urtigon.html` (o i nomi scelti da
    Jacopo), scritte con `/crea-scheda`, percorsi «da radice» (`style.css`, `img/…`).
 2. Un messaggio finale a Jacopo con: i nomi alternativi, la scelta Erba vs Erba/Veleno per #005,
    le due opzioni per la mossa esclusiva, e l'elenco di ciò che è stato verificato e di ciò che
@@ -151,7 +152,7 @@ la posa descritta al §3.
 
 ## 9. Cose che restano aperte (decide Jacopo)
 
-- I nomi definitivi dei tre stadi.
+- I nomi definitivi di #004 e #006 (#005 è **Ortica**, deciso).
 - Veleno dal secondo o dal terzo stadio.
 - La mossa esclusiva di #006: guardia o attacco.
 - Se la linea Fuoco resterà il «falco della Falck» (Sesto, fuori confine) o altro. Non riguarda

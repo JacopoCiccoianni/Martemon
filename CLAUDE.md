@@ -29,7 +29,7 @@ La radice del repo **è** il sito pubblicato (GitHub Pages dal branch `main`, ca
 ```
 index.html          Pokédex Martemon (card) + indice rapido (tabella)
 <nome>.html         una scheda per specie, nome del Pokémon in minuscolo senza accenti (nutri.html)
-style.css           stile condiviso: colori dei 18 tipi (.t-<tipo>), infobox, barre, tabelle
+style.css           stile condiviso in stile Pokémon Central: tipi (.t-<tipo>), accenti per pagina (body.<tipi>), infobox, barre
 img/<nome>.png      artwork della specie (file esterno, NON base64 come in Wikascolemon)
 _bozze/             schede in lavorazione, non ancora linkate dall'indice
 .nojekyll           Pages serve i file così come sono (niente Jekyll)
@@ -69,8 +69,12 @@ Quando una scheda viene pubblicata, aggiornare la tabella nella skill.
 
 - Clonare **sempre** la struttura di una scheda esistente (`nutri.html` è il modello; `sciutria.html`
   mostra una specie a due tipi con una mossa esclusiva). Stesse classi, stesso ordine di sezioni.
+- Ogni pagina dichiara `<body class="<tipi>">` e `style.css` ha la riga `body.<tipi>{--accent1;--accent2}`
+  corrispondente: è il solo punto in cui una scheda nuova tocca il CSS.
+- Design rifatto il 05/09/2026 sul modello di Pokémon Central (`.dexnav`, `.infobox`, `.effbox`,
+  `.evochain`, `.statbars`, `.wtable`): le vecchie classi `.pagenav`/`.eff`/`.evo`/`.stats` non esistono più.
 - Voci Pokédex nelle due versioni immaginarie: **Versione Lambro** e **Versione Martesana**.
-- Ogni scheda ha una sezione «di luogo» (`.place`) su un posto **reale** del quartiere, scritto
+- Ogni scheda ha una sezione «di luogo» (un `.notabene`) su un posto **reale** del quartiere, scritto
   con affetto e precisione: è la parte che rende il progetto locale e non generico.
 - Categorie di mossa con lo **split fisico/speciale moderno**, per mossa. Le statistiche sono
   pensate su questa base.

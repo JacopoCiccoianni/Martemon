@@ -19,7 +19,8 @@ deploy automatico da `main` su https://jacopociccoianni.github.io/Martemon/.
    - nessun asset esterno oltre a `style.css`, `img/…` e il link GitHub del footer;
    - numero **non duplicato** e coerente coi blocchi riservati (tabella in `crea-scheda`); i
      buchi sono voluti e restano;
-   - le due `.pagenav` coerenti col numero; anchor del `.toc` = `id` delle sezioni.
+   - le due `.dexnav` coerenti col numero; anchor del `.toc` = `id` delle sezioni;
+   - `<body class="<tipi>">` presente e la riga `body.<tipi>{...}` esiste in `style.css`.
 
 ## 1. Sposta alla radice
 
@@ -28,8 +29,9 @@ usava percorsi `../style.css` o `../img/`, riportarli a `style.css` e `img/`.
 
 ## 2. Aggiorna la navigazione delle schede adiacenti
 
-Nella scheda **precedente** (#0NN-1), nelle **due** `.pagenav` (alto e basso), sostituire il
-segnaposto del successivo con `<span><a href="<nome>.html">#0NN: Nome</a> →</span>`.
+Nella scheda **precedente** (#0NN-1), nelle **due** `.dexnav` (alto e basso), sostituire il
+segnaposto del successivo (`<span class="gap">…</span>` o il link all'indice) con
+`<span><a href="<nome>.html">#0NN: Nome</a> →</span>`.
 Se esiste già la scheda **successiva** (#0NN+1), fare lo stesso per il suo link «precedente».
 Se il precedente non esiste (buco voluto), non c'è nulla da toccare.
 
@@ -37,13 +39,16 @@ Aggiornare «Vedi anche» delle schede vicine solo se il legame ha senso narrati
 
 ## 3. Aggiorna `index.html`
 
-Una sola griglia `.dexgrid` e una sola tabella `.quick`, entrambe **in ordine di numero**: la
+Una sola griglia `.cards` e una sola tabella `.wtable.full`, entrambe **in ordine di numero**: la
 voce nuova va al posto giusto, non in coda.
 
 Card, sul modello delle esistenti:
 ```html
-<div class="card"><span class="num">#0NN</span><h3>Nome</h3><div class="cat">Pokémon Categoria</div><span class="type t-tipo1">Tipo1</span> <span class="type t-tipo2">Tipo2</span>
-<p>Frase descrittiva di due-tre righe, con luogo ed evoluzione.</p>
+<div class="card">
+<div class="head"><div class="num">#0NN</div><div class="nm">Nome</div><div class="cat">Pokémon Categoria</div></div>
+<div class="art"><img src="img/nome.png" alt="Nome"></div>
+<div class="body"><div class="types"><span class="type t-tipo1">Tipo1</span><span class="type t-tipo2">Tipo2</span></div>
+Frase descrittiva di due-tre righe, con luogo ed evoluzione.</div>
 <a class="go" href="nome.html">Vai alla scheda →</a></div>
 ```
 Riga dell'indice rapido:
@@ -54,8 +59,9 @@ La riga finale `class="gap"` («specie non ancora catalogata») mostra il **prim
 dopo l'ultimo pubblicato: aggiornarla. Se il nuovo numero lascia un buco prima di sé, va bene:
 il buco non si elenca.
 
-Se è la prima scheda di una linea starter Erba o Fuoco, aggiornare anche il testo del riquadro
-`.hero` e del paragrafo «Pokédex Martemon», che oggi dicono che esiste solo la linea Acqua.
+Se è la prima scheda di una linea starter Erba o Fuoco, aggiornare anche il `.notice` «Wiki in
+espansione» e il paragrafo «Pokédex Martemon», che oggi dicono che esiste solo la linea Acqua, e
+la frase «(non ancora catalogate)» nell'intro delle tre schede Acqua.
 
 ## 4. Aggiorna `README.md`
 
@@ -70,7 +76,7 @@ blocco appena occupato. La tabella è autorevole solo se viene tenuta aggiornata
 
 Dalla radice del repo:
 ```
-git add <nome>.html <precedente>.html index.html README.md img/<nome>.png .claude/skills/crea-scheda/SKILL.md CLAUDE.md
+git add <nome>.html <precedente>.html index.html README.md style.css img/<nome>.png .claude/skills/crea-scheda/SKILL.md CLAUDE.md
 git status          # SOLO quello che ci si aspetta
 git commit -m "Aggiunta scheda #0NN Nome"
 git push
