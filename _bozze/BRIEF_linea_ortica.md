@@ -158,5 +158,5 @@ la posa descritta al §3.
 - I nomi definitivi di #004 e #006 (#005 è **Ortica**, deciso).
 - Veleno dal secondo o dal terzo stadio.
 - La mossa esclusiva di #006: guardia o attacco.
-- Se la linea Fuoco resterà il «falco della Falck» (Sesto, fuori confine) o altro. Non riguarda
+- ~~Se la linea Fuoco resterà il «falco della Falck»~~ Risolto: la linea Fuoco è la Lambretta dell'Innocenti (#007-009, pubblicata il 05/09/2026). Non riguarda
   questo brief, ma le curiosità della linea Erba non devono citare la linea Fuoco per nome.

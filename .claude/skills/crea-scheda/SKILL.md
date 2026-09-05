@@ -21,7 +21,7 @@ Determinare il **numero di Pokédex**. Il dex è uno solo, la numerazione è **s
 |---|---|
 | #001-#003 | Starter Acqua: Nutrì → Nutriotto → Sciutria ✅ (Lambro → Martesana → Gorla) |
 | #004-#006 | Starter Erba: Ortighetto → Ortica → Palortica ✅ (ferrovia di Lambrate → quartiere Ortica → Cascina Sant'Ambrogio) |
-| #007-#009 | Starter Fuoco (riservato, da inventare) |
+| #007-#009 | Starter Fuoco: Bracina → Ghisandra → Salambretta ✅ (ex Innocenti → stazione di Lambrate → cavalcavia) |
 | #010 in su | Libero |
 
 Regola: scansionare `*.html` alla radice e in `_bozze/` per i numeri già presi, e assegnare il

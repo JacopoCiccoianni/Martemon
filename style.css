@@ -11,6 +11,8 @@ body.acqua{--accent1:#6890F0;--accent2:#38a0d8}
 body.acqua-terra{--accent1:#6890F0;--accent2:#c9a44a}
 body.erba{--accent1:#78C850;--accent2:#3f8a3a}
 body.erba-veleno{--accent1:#78C850;--accent2:#A040A0}
+body.fuoco{--accent1:#F08030;--accent2:#c23a1e}
+body.fuoco-acciaio{--accent1:#F08030;--accent2:#8f8fb0}
 *{box-sizing:border-box}
 body{margin:0;background:#fff;color:var(--text);font:14px/1.6 "Segoe UI","Helvetica Neue",Arial,sans-serif}
 .page{max-width:1080px;margin:0 auto;padding:14px 20px 40px}
