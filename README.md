@@ -10,6 +10,7 @@ Sito: https://jacopociccoianni.github.io/Martemon/
 - `nutri.html`, `nutriotto.html`, `sciutria.html` — schede della linea starter Acqua
 - `ortighetto.html`, `ortica.html`, `palortica.html` — schede della linea starter Erba
 - `bracina.html`, `ghisandra.html`, `salambretta.html` — schede della linea starter Fuoco
+- `aironcello.html`, `martesairone.html` — la linea dell'airone della Martesana (#010-011)
 - `_bozze/` — schede in lavorazione e brief per chi le scrive
 - `style.css` — foglio di stile condiviso
 - `img/` — artwork dei Pokémon (`nome.png`)

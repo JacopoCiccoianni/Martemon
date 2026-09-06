@@ -22,11 +22,12 @@ Determinare il **numero di Pokédex**. Il dex è uno solo, la numerazione è **s
 | #001-#003 | Starter Acqua: Nutrì → Nutriotto → Sciutria ✅ (Lambro → Martesana → Gorla) |
 | #004-#006 | Starter Erba: Ortighetto → Ortica → Palortica ✅ (ferrovia di Lambrate → quartiere Ortica → Cascina Sant'Ambrogio) |
 | #007-#009 | Starter Fuoco: Bracina → Ghisandra → Salambretta ✅ (ex Innocenti → stazione di Lambrate → cavalcavia) |
-| #010 in su | Libero |
+| #010-#011 | Aironcello → Martesairone ✅ — l'airone cenerino della Martesana tra Turro e Greco, il più raro del dex |
+| #012 in su | Libero |
 
 Regola: scansionare `*.html` alla radice e in `_bozze/` per i numeri già presi, e assegnare il
 **primo numero libero coerente col concept** (una linea starter va nel suo blocco; una linea
-evolutiva occupa numeri consecutivi; una specie qualsiasi prende il primo libero da #010).
+evolutiva occupa numeri consecutivi; una specie qualsiasi prende il primo libero da #012).
 Mai «il più alto + 1» senza guardare la tabella. Dopo la pubblicazione, **aggiornare questa
 tabella** con la riga nuova e la spunta ✅.
 

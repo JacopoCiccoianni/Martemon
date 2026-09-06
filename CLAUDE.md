@@ -61,7 +61,8 @@ tabella, che vive nella skill `crea-scheda` ed è l'unica autorevole. Riassunto:
 | #001-#003 | Starter Acqua: Nutrì → Nutriotto → Sciutria ✅ |
 | #004-#006 | Starter Erba: Ortighetto → Ortica → Palortica ✅ |
 | #007-#009 | Starter Fuoco: Bracina → Ghisandra → Salambretta ✅ |
-| #010 in su | Specie libere, primo numero libero coerente col concept |
+| #010-#011 | Aironcello → Martesairone ✅ (l'airone della Martesana) |
+| #012 in su | Specie libere, primo numero libero coerente col concept |
 
 Quando una scheda viene pubblicata, aggiornare la tabella nella skill.
 
