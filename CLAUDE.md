@@ -62,7 +62,8 @@ tabella, che vive nella skill `crea-scheda` ed è l'unica autorevole. Riassunto:
 | #004-#006 | Starter Erba: Ortighetto → Ortica → Palortica ✅ |
 | #007-#009 | Starter Fuoco: Bracina → Ghisandra → Salambretta ✅ |
 | #010-#011 | Aironcello → Martesairone ✅ (l'airone della Martesana) |
-| #012 in su | Specie libere, primo numero libero coerente col concept |
+| #012-#014 | Stracchetto → Crescenzio → Gorgonzola ✅ (la linea dei formaggi della Martesana) |
+| #015 in su | Specie libere, primo numero libero coerente col concept |
 
 Quando una scheda viene pubblicata, aggiornare la tabella nella skill.
 

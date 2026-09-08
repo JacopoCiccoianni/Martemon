@@ -15,6 +15,8 @@ body.fuoco{--accent1:#F08030;--accent2:#c23a1e}
 body.fuoco-acciaio{--accent1:#F08030;--accent2:#8f8fb0}
 body.volante{--accent1:#A890F0;--accent2:#6f66b3}
 body.volante-acqua{--accent1:#A890F0;--accent2:#6890F0}
+body.normale{--accent1:#A8A878;--accent2:#7d7d55}
+body.normale-veleno{--accent1:#A8A878;--accent2:#A040A0}
 *{box-sizing:border-box}
 body{margin:0;background:#fff;color:var(--text);font:14px/1.6 "Segoe UI","Helvetica Neue",Arial,sans-serif}
 .page{max-width:1080px;margin:0 auto;padding:14px 20px 40px}
